@@ -31,4 +31,5 @@ Original links of datasets are:
 - For training, you can use `python ranking_model/train.py {dataset_name} {model_name} ...parameters` to train any ranking model you want.
 
 ### Re-ranking model
-- For re-ranking model, you can set the model mode to `test` and use `python train.py` to run the re-ranking model for testing.
+- For mmr based and dpp based re-ranking models, you can set the model mode to `test` and use `python train.py` to run the re-ranking model for testing.
+- For Deep Learning based re-ranking models, you can use `python DL_based_reranking_model/train.py` to train and test the DL based re-ranking models.
